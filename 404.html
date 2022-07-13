@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404エラー</title>
+</head>
+<body>
+    <center>
+    <h1>存在しないリンクです。</h1>
+    <nav><p><h3>お探しのページは移動または削除された可能性があります。</h3></p><p><h3>URLが間違っていないか確かめるか別のページをお探しください。</h3></p></nav>
+</center>
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6LfuDpIgAAAAAKYQh91E0fK9zJAvgMaviV_dWPlO"></script>
+<script>
+grecaptcha.enterprise.ready(function() {
+    grecaptcha.enterprise.execute('6LfuDpIgAAAAAKYQh91E0fK9zJAvgMaviV_dWPlO', {action: 'login'}).then(function(token) {
+       ...
+    });
+});
+</script>
+</body>
+</html>
